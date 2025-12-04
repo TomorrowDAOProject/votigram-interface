@@ -1,0 +1,22 @@
+.telegram-header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(
+    var(--tg-content-safe-area-inset-top) + var(--tg-safe-area-inset-top) +
+      var(--tg-safe-area-custom-top)
+  );
+  padding-top: var(--tg-safe-area-inset-top);
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10000;
+}
+
+.telegram-header-container + .pt-telegramHeader {
+  padding-top: calc(
+    var(--tg-content-safe-area-inset-top) + var(--tg-safe-area-inset-top) +
+      var(--tg-safe-area-custom-top)
+  );
+}

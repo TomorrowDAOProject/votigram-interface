@@ -1,0 +1,34 @@
+.left-picker {
+  @apply flex-none basis-2/5;
+
+  .m-style-picker-item {
+    @apply pl-[50px];
+  }
+}
+
+.middle-picker {
+  @apply flex-none basis-1/5;
+}
+
+.right-picker {
+  @apply flex-none basis-2/5;
+
+  .m-style-picker-item {
+    @apply pr-[50px];
+  }
+}
+.left-picker,
+.middle-picker,
+.right-picker {
+  .m-style-picker-mask {
+    @apply !bg-none;
+  }
+  
+  .m-style-picker-indicator-vertical {
+    @apply border-gray-border;
+  }
+
+  .m-style-picker-item-selected {
+    @apply text-white;
+  }
+}

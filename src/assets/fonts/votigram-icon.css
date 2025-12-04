@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "votigram-icon";
+  src: url('votigram-icon.eot?t=1735871954887'); /* IE9*/
+  src: url('votigram-icon.eot?t=1735871954887#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url("votigram-icon.woff2?t=1735871954887") format("woff2"),
+  url("votigram-icon.woff?t=1735871954887") format("woff"),
+  url('votigram-icon.ttf?t=1735871954887') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('votigram-icon.svg?t=1735871954887#votigram-icon') format('svg'); /* iOS 4.1- */
+}
+
+[class^="votigram-icon-"], [class*=" votigram-icon-"] {
+  font-family: 'votigram-icon' !important;font-size: undefined;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.votigram-icon-arrow-go:before { content: "\ea01"; }
+.votigram-icon-arrow-ninety-degrees:before { content: "\ea02"; }
+.votigram-icon-back:before { content: "\ea03"; }
+.votigram-icon-calendar:before { content: "\ea04"; }
+.votigram-icon-cancel:before { content: "\ea05"; }
+.votigram-icon-chat-bubble:before { content: "\ea06"; }
+.votigram-icon-create-poll:before { content: "\ea07"; }
+.votigram-icon-delete-2:before { content: "\ea08"; }
+.votigram-icon-duplicate:before { content: "\ea09"; }
+.votigram-icon-minus:before { content: "\ea0a"; }
+.votigram-icon-navbar-for-you:before { content: "\ea0b"; }
+.votigram-icon-navbar-home:before { content: "\ea0c"; }
+.votigram-icon-navbar-task-profile:before { content: "\ea0d"; }
+.votigram-icon-navbar-vote:before { content: "\ea0e"; }
+.votigram-icon-plus:before { content: "\ea0f"; }
+.votigram-icon-profile:before { content: "\ea10"; }
+.votigram-icon-referral-friends:before { content: "\ea11"; }
+.votigram-icon-reset:before { content: "\ea12"; }
+.votigram-icon-schrondinger-logo:before { content: "\ea13"; }
+.votigram-icon-search:before { content: "\ea14"; }
+.votigram-icon-send:before { content: "\ea15"; }
+.votigram-icon-share:before { content: "\ea16"; }
+.votigram-icon-sponsored:before { content: "\ea17"; }
+.votigram-icon-telegram:before { content: "\ea18"; }
+.votigram-icon-tick:before { content: "\ea19"; }
+.votigram-icon-time:before { content: "\ea1a"; }
+.votigram-icon-twitter-x:before { content: "\ea1b"; }
+.votigram-icon-upload:before { content: "\ea1c"; }
+.votigram-icon-warning:before { content: "\ea1d"; }
+.votigram-icon-watch-ads:before { content: "\ea1e"; }
+.votigram-icon-web:before { content: "\ea1f"; }
+
+
