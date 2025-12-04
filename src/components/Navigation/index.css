@@ -1,0 +1,5 @@
+.navigation-container {
+  z-index: 1000;
+  backdrop-filter: blur(40px);
+  bottom: 34px;
+}

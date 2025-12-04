@@ -1,0 +1,21 @@
+.app-category-list {
+  padding: 0 20px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  margin-top: 10px;
+  gap: 6px;
+
+  .item {
+    flex-grow: 0;
+    padding: 0;
+  }
+
+  .second-item {
+    display: flex;
+  }
+}

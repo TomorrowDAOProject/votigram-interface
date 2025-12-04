@@ -1,0 +1,15 @@
+.top-voted-app-list {
+  padding: 0 20px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  gap: 9px;
+
+  .item {
+    flex-grow: 0;
+  }
+}
